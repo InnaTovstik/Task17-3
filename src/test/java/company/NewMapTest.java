@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class NewMapTest {
 
     @Test
-    public void shouldNewMap() {
+    public void shouldSwap() {
         Map<String, Integer> subject = new HashMap<>();
         subject.put("Italy", 20);
         subject.put("France", 25);
