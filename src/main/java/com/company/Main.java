@@ -23,7 +23,7 @@ public class Main {
         map.put("Spain", 12);
         System.out.println(map);
         System.out.println("Карта, у которой ключи становятся значениями, значения становятся ключами");
-        Map<Integer, String> newMap = NewMap.newMap(map);
+        Map<Integer, String> newMap = NewMap.swap(map);
         System.out.println(newMap);
     }
 }

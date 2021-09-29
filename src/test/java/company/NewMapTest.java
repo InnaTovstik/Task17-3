@@ -24,7 +24,7 @@ public class NewMapTest {
         expected.put(30, "Ukraine");
         expected.put(40, "Germany");
         expected.put(15, "Argentina");
-        Map<Integer, String> actual = NewMap.newMap(subject);
+        Map<Integer, String> actual = NewMap.swap(subject);
         assertEquals(expected, actual);
     }
 }
